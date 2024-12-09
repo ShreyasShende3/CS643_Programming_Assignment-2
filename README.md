@@ -51,7 +51,7 @@ Install Java, Maven, and Spark on all instances.
 **Install Java:**
 ```bash
 sudo apt update
-sudo apt install openjdk-11-jdk -y
+sudo apt install openjdk-8-jdk -y
 ```
 
 **Install Maven:**
@@ -62,13 +62,13 @@ sudo apt install maven -y
 **Install Spark:**
 1. Download and extract Spark:
 ```bash
-wget https://archive.apache.org/dist/spark/spark-3.4.1/spark-3.4.1-bin-hadoop3.2.tgz
-tar -xvzf spark-3.4.1-bin-hadoop3.2.tgz
+wget https://archive.apache.org/dist/spark/spark-3.4.1/spark-3.4.1-bin-hadoop3.tgz
+tar -xvzf spark-3.4.1-bin-hadoop3.tgz
 ```
 
 2. Set environment variables:
 ```bash
-echo "export SPARK_HOME=/home/ubuntu/spark-3.4.1-bin-hadoop3.2" >> ~/.bashrc
+echo "export SPARK_HOME=/home/ubuntu/spark-3.4.1-bin-hadoop3" >> ~/.bashrc
 echo "export PATH=\$SPARK_HOME/bin:\$PATH" >> ~/.bashrc
 source ~/.bashrc
 ```
