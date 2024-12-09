@@ -161,12 +161,6 @@ Run the container:
 sudo docker run shreyasshende/wine-quality-eval:latest
 ```
 
-Within the container, execute the Spark job:
-
-```bash
-spark-submit --master spark://<master-ip>:7077 --class com.example.WineQualityEval /app/WineQualityEval/target/wine-quality-eval-1.0-SNAPSHOT.jar
-```
-
 ---
 
 ### **10. Results**
