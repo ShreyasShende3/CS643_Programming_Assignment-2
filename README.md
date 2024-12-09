@@ -1,7 +1,3 @@
-Here’s the updated README file based on the detailed step-by-step guide provided earlier:
-
----
-
 # **CS643 Programming Assignment-2**
 
 This project demonstrates the distributed execution of a machine learning task using Apache Spark on a cluster of 4 instances. The task involves training a model to evaluate wine quality and achieving an F1 score of **0.7634** on the validation dataset using an SVC model. The instructions below guide you through the complete setup, from configuring instances to running the Spark job using Docker.
