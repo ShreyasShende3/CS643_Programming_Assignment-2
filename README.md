@@ -4,6 +4,8 @@ This project demonstrates the distributed execution of a machine learning task u
 
 ---
 
+Link to Docker Image : https://hub.docker.com/r/shreyasshende/wine-quality-eval
+
 ## **Steps to Setup and Execute the Project**
 
 ### **1. SSH into Instances**
