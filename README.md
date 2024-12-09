@@ -158,7 +158,7 @@ sudo docker pull shreyasshende/wine-quality-eval:latest
 Run the container:
 
 ```bash
-sudo docker run -it --entrypoint /bin/bash shreyasshende/wine-quality-eval:latest
+sudo docker run shreyasshende/wine-quality-eval:latest
 ```
 
 Within the container, execute the Spark job:
