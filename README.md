@@ -236,12 +236,3 @@ spark-submit --master spark://<master-ip>:7077 --class com.example.WineQualityEv
 
 ---
 
-### Summary:
-- **SSH into instances** and set up SSH keys.
-- **Install Java, Maven, Spark**, and configure the environment on all 4 instances.
-- **Configure Spark workers** and set up the `workers` file.
-- **Run Spark jobs** using `spark-submit`.
-- **Create a Docker image** and push it to Docker Hub.
-- **Pull and run** the image on the desired instances to execute the job.
-
-Let me know if you need further assistance!
