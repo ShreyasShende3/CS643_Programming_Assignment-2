@@ -1,5 +1,11 @@
 # CS643_Programming_Assignment-2
 
+Results:
+
+Used SVC model
+F1 Score: 0.7634353741496599 (On ValidationDataset)
+
+
 Here's a step-by-step guide you can follow to perform the tasks you mentioned, documented as requested:
 
 ---
